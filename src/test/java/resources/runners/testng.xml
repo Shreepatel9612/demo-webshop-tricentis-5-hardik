@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1" >
+    <listeners>
+        <listener class-name="com.tricentis.demowebshop.customlisteners.CustomListeners"></listener>
+    </listeners>
+    <test name="All Tests" >
+        <classes>
+            <class name="com.tricentis.demowebshop.testsuite.LoginPageTest"/>
+            <class name="com.tricentis.demowebshop.testsuite.RegisterPageTest"/>
+            <class name="com.tricentis.demowebshop.testsuite.ComputerPageTest"/>
+        </classes>
+    </test>
+</suite>
